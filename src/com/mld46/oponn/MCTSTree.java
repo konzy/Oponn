@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
 
-import com.mld46.oponn.Oponn.MoveSelectionPolicy;
+import com.mld46.oponn.SelectionPolicy.MoveSelectionPolicy;
 import com.mld46.oponn.moves.Attack;
 import com.mld46.oponn.moves.AttackOutcome;
 import com.mld46.oponn.moves.CountrySelection;

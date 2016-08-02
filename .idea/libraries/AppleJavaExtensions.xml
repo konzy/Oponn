@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="AppleJavaExtensions">
+    <CLASSES>
+      <root url="jar://C:/Program Files (x86)/Lux/AppleJavaExtensions.jar!/" />
+      <root url="jar://C:/Program Files (x86)/Lux/exe4jlib.jar!/" />
+      <root url="jar://C:/Program Files (x86)/Lux/jogg-0.0.7.jar!/" />
+      <root url="jar://C:/Program Files (x86)/Lux/jorbis-0.0.15.jar!/" />
+      <root url="jar://C:/Program Files (x86)/Lux/LuxCore.jar!/" />
+      <root url="jar://C:/Program Files (x86)/Lux/tritonus_share.jar!/" />
+      <root url="jar://C:/Program Files (x86)/Lux/vorbisspi1.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

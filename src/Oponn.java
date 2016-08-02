@@ -1,11 +1,11 @@
-package com.mld46.oponn;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.util.Arrays;
 import java.util.Random;
 
+import com.mld46.oponn.*;
+import com.mld46.oponn.SelectionPolicy.MoveSelectionPolicy;
 import com.mld46.oponn.moves.Attack;
 import com.mld46.oponn.moves.AttackOutcome;
 import com.mld46.oponn.moves.CardCash;
@@ -32,13 +32,7 @@ public class Oponn extends SimAgent
 	/** Settings **/
 	/**************/
 	
-	public enum MoveSelectionPolicy
-	{
-		MAX_CHILD,
-		ROBUST_CHILD,
-		MAX_ROBUST_CHILD,
-		SECURE_CHILD
-	}
+
 	
 	private final boolean RETAIN_ROOT = false;
 	private final boolean RESTORE_TREE = RETAIN_ROOT && false;
